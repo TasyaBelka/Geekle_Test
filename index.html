@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://allfont.ru/allfont.css?fonts=bison" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&family=Montserrat:wght@400;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+
+
+  <title>Test</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav class="navigation">
+      <div class="nav-wrap">
+        <div>
+          <img src="Images/Logo.svg" alt="Logo" class="nav-logo desktop">
+          <img src="Images/Geekle logo.png" alt="Logo" class="nav-logo mobile">
+        </div>
+
+        <div class="mobile-menu mobile">
+          <img src="Images/Group 268.png" alt="Menu">
+          <ul class="submenu">
+            <li> <a class="submenu-txt" href="">Agenda</a> </li>
+            <hr>
+            <li> <a class="submenu-txt" href="">Tickets</a> </li>
+            <hr>
+            <li> <a class="submenu-txt" href="">Team</a> </li>
+          </ul>
+        </div>
+
+        <div class="menu desktop">
+          <a href="" class="menu-txt">Agenda</a>
+          <a href="" class="menu-txt">Tickets</a>
+          <a href="" class="menu-txt">Team</a>
+        </div>
+      </div>
+    </nav>
+
+    <section class="main">
+      <div class="main-wrapper">
+        <div class="main-container">
+          <h2 class="main-txt">Worldwide Software <br> Architecture Summit</h2>
+          <div class="image mobile">
+
+            <img src="Images/Statue.png" alt="Statue Picture" class="statue">
+            <button id="main-btn-mobile" class="main-btn">Buy Tickets</button>
+
+            <div class="main-info mobile">
+              <p class="main-p-txt">Dive into</p>
+              <h3 class="main-h-txt-1">Cloud Architecture <br> Optimization:</h3>
+              <h3 class="main-h-txt-2">Automation&Testing</h3>
+            </div>
+          </div>
+          <div class="main-info desktop">
+            <p class="main-p-txt">Dive into</p>
+            <h3 class="main-h-txt-1">Cloud Architecture <br> Optimization:</h3>
+            <h3 class="main-h-txt-2">Automation&Testing</h3>
+          </div>
+          <button id="main-btn" class="main-btn desktop">Buy Tickets</button>
+        </div>
+        <div class="image desktop">
+          <img src="Images/Statue.png" alt="Statue Picture" class="statue desktop">
+        </div>
+      </div>
+      <div class="date-title">
+        <h2 class="date-txt">ONLINE, JANUARY 26-27. DURATION: 10:00-19:00</h2>
+      </div>
+    </section>
+
+    <section class="agenda">
+      <div class="agenda-mobile">
+        <h1>Agenda</h1>
+        <h3 class="agenda-h-txt">choose your time zone</h3>
+        <p class="agenda-p-txt">Some talks are pre-recorded due to speakers’ time-zone differences</p>
+        <div class="select">
+          <select size="1" name="time-zone" id="" class="time-zone mobile">
+            <option value="CET (Central European Time)">CET (Central European Time)</option>
+            <option value="CST (Central Standard Time)">CST (Central Standard Time)</option>
+            <option value="Vendor track">Vendor track</option>
+          </select>
+        </div>
+        <div class="time desktop">
+          <p class="time-part-1">CET (Central European Time)</p>
+          <p class="time-part-1">CST (Central Standard Time)</p>
+          <p class="time-part-1">Vendor track</p>
+        </div>
+
+      </div>
+
+      <div class="track">
+        <div class="career">
+          <h2 class="career-title">Career Track</h2>
+          <p class="track-txt">Aimed to upgrade Developers’ skills to evolve to Software Architect</p>
+
+          <div class="agenda-req mobile">
+            <div class="ns-title-wrap">
+              <h3 class="new-section-title mobile">NFR – Non-functional requirenment</h3>
+            </div>
+            <div class="info">
+
+              <div class="info-title">
+                <img src="Images/Alexander Kuttig 1.jpg" alt="Photo 1" class="info-logo">
+                <img src="Images/Mask Group.svg" alt="Logo" class="info-logo">
+              </div>
+
+              <div class="info-img">
+                <h4 class="info-time">10:10 — 10:40</h4>
+                <p class="info-name">Alexander Kuttig</p>
+                <h5 class="container-title">"Using AWS and Google Cloud  in a cost-efficient way"</h5>
+                <button class="info-btn" id="info-btn-1">show abstract</button>
+                <button class="info-btn" id="info-btn-2">add to calendar</button>
+              </div>
+
+            </div>
+
+            <hr>
+
+            <div class="info">
+
+              <div class="info-title">
+                <img src="Images/Alexander Kuttig 2.jpg" alt="Photo 2" class="info-logo">
+                <img src="Images/Dazn.png" alt="Logo" class="info-logo">
+              </div>
+
+              <div class="info-img">
+                <h4 class="info-time">10:40 — 11:10</h4>
+                <p class="info-name">Ivan Rigoni</p>
+                <h5 class="container-title">"A Million Requests <br> in 10 minutes"</h5>
+                <button class="info-btn" id="info-btn-3">show abstract</button>
+                <button class="info-btn" id="info-btn-4">add to calendar</button>
+              </div>
+
+            </div>
+
+            <hr>
+
+            <div class="info">
+
+              <div class="info-title">
+                <img src="Images/Alexander Kuttig 3.jpg" alt="Photo 3" class="info-logo">
+                <img src="Images/Salesforce.png" alt="Logo" class="info-logo">
+              </div>
+
+              <div class="info-img">
+                <h4 class="info-time">11:10 — 11:40</h4>
+                <p class="info-name">Rohit Bhardwaj</p>
+                <h5 class="container-title">"Resilient Cloud Architecture Design Patterns"</h5>
+                <button class="info-btn" id="info-btn-5">show abstract</button>
+                <button class="info-btn" id="info-btn-6">add to calendar</button>
+              </div>
+
+            </div>
+
+            <hr>
+
+            <div class="q-a">
+
+              <h4 class="qa-time">11:40 — 12:10</h4>
+              <p class="qa-txt">Q&A</p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="career">
+          <h2 class="career-title">Pro Track</h2>
+          <p class="track-txt">Practical tech cases for Experienced Software Architects, CTOs and Senior Software
+            Engineers</p>
+          <div class="agenda-req mobile">
+            <div class="ns-title-wrap">
+              <h3 class="new-section-title mobile">NFR – Non-functional requirenment</h3>
+            </div>
+            <div class="info">
+              <div class="info-title">
+                <img src="Images/Alexander Kuttig 4.jpg" alt="Photo 4" class="info-logo">
+                <img src="Images/Mask Group.svg" alt="Logo" class="info-logo">
+              </div>
+
+              <div class="info-img">
+                <h4 class="info-time">10:20 — 10:50</h4>
+                <p class="info-name">Heidi Waterhouse</p>
+                <h5 class="container-title">"Breaking Strain: A story about capacities and testing"</h5>
+                <button class="info-btn" id="info-btn-7">show abstract</button>
+                <button class="info-btn" id="info-btn-8">add to calendar</button>
+              </div>
+
+            </div>
+
+            <hr>
+
+            <div class="info">
+
+              <div class="info-title">
+                <img src="Images/Alexander Kuttig 5.jpg" alt="Photo 5" class="info-logo">
+                <img src="Images/Oracle.svg" alt="Logo Oracle" class="info-logo">
+              </div>
+
+              <div class="info-img">
+
+                <h4 class="info-time">10:50 — 11:20</h4>
+                <p class="info-name">Emma Thomas</p>
+                <h5 class="container-title">"But we wanted our solution to transmit data faster than the speed of light"
+                </h5>
+                <button class="info-btn" id="info-btn-9">show abstract</button>
+                <button class="info-btn" id="info-btn-10">add to calendar</button>
+              </div>
+
+            </div>
+
+            <hr>
+
+            <div class="info">
+
+              <div class="info-title">
+                <img src="Images/Alexander Kuttig 6.jpg" alt="Photo 6" class="info-logo">
+                <img src="Images/Nasa.svg" alt="Logo Nasa" class="info-logo">
+              </div>
+
+              <div class="info-img">
+                <h4 class="info-time">11:20 — 11:50</h4>
+                <p class="info-name">Michael Ritchson</p>
+                <h5 class="container-title">"Apache Tomee, a successful open source migration journey for NASA"</h5>
+                <button class="info-btn" id="info-btn-11">show abstract</button>
+                <button class="info-btn" id="info-btn-12">add to calendar</button>
+              </div>
+
+            </div>
+
+            <hr>
+
+            <div class="q-a">
+              <h4 class="qa-time">11:50 — 12:20</h4>
+              <p class="qa-txt">Q&A</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <h3 class="new-section-title desktop">NFR – Non-functional requirenment</h3>
+
+    <section class="requirement">
+
+
+      <div class="agenda-req desktop">
+
+        <div class="info">
+
+          <div class="info-title">
+            <h4 class="info-time">10:10 — 10:40</h4>
+            <p class="info-name">Alexander Kuttig</p>
+            <img src="Images/Mask Group.svg" alt="Logo" class="info-logo">
+          </div>
+
+          <div class="info-img">
+            <img src="Images/Alexander Kuttig 1.jpg" alt="Photo 1">
+          </div>
+
+          <div class="info-container">
+            <h5 class="container-title">"Using AWS and Google Cloud <br> in a cost-efficient way"</h5>
+
+            <div class="btn">
+              <button class="info-btn" id="info-btn-1-desk">show abstract</button>
+              <button class="info-btn" id="info-btn-2-desk">add to calendar</button>
+            </div>
+
+          </div>
+
+        </div>
+
+        <hr>
+
+        <div class="info">
+
+          <div class="info-title">
+            <h4 class="info-time">10:40 — 11:10</h4>
+            <p class="info-name">Ivan Rigoni</p>
+            <img src="Images/Dazn.png" alt="Logo" class="info-logo">
+          </div>
+
+          <div class="info-img">
+            <img src="Images/Alexander Kuttig 2.jpg" alt="Photo 2">
+          </div>
+
+          <div class="info-container">
+            <h5 class="container-title">"A Million Requests <br> in 10 minutes"</h5>
+
+            <div class="btn">
+              <button class="info-btn" id="info-btn-3-desk">show abstract</button>
+              <button class="info-btn" id="info-btn-4-desk">add to calendar</button>
+            </div>
+
+          </div>
+
+
+        </div>
+
+        <hr>
+
+        <div class="info">
+
+          <div class="info-title">
+            <h4 class="info-time">11:10 — 11:40</h4>
+            <p class="info-name">Rohit Bhardwaj</p>
+            <img src="Images/Salesforce.png" alt="Logo" class="info-logo">
+          </div>
+
+          <div class="info-img">
+            <img src="Images/Alexander Kuttig 3.jpg" alt="Photo 3">
+          </div>
+
+          <div class="info-container">
+            <h5 class="container-title">"Resilient Cloud Architecture Design Patterns"</h5>
+
+            <div class="btn">
+              <button class="info-btn" id="info-btn-5-desk">show abstract</button>
+              <button class="info-btn" id="info-btn-6-desk">add to calendar</button>
+            </div>
+
+          </div>
+
+        </div>
+
+        <hr>
+
+        <div class="q-a">
+
+          <h4 class="qa-time">11:40 — 12:10</h4>
+          <p class="qa-txt">Q&A</p>
+
+        </div>
+
+      </div>
+
+      <div class="agenda-req desktop">
+
+        <div class="info">
+          <div class="info-title">
+            <h4 class="info-time">10:20 — 10:50</h4>
+            <p class="info-name">Heidi Waterhouse</p>
+            <img src="Images/Mask Group.svg" alt="Logo" class="info-logo">
+          </div>
+
+          <div class="info-img">
+            <img src="Images/Alexander Kuttig 4.jpg" alt="Photo 4">
+          </div>
+
+          <div class="info-container">
+            <h5 class="container-title">"Breaking Strain: A story about capacities and testing"</h5>
+
+            <div class="btn">
+              <button class="info-btn" id="info-btn-7-desk">show abstract</button>
+              <button class="info-btn" id="info-btn-8-desk">add to calendar</button>
+            </div>
+
+          </div>
+
+        </div>
+
+        <hr>
+
+        <div class="info">
+
+          <div class="info-title">
+            <h4 class="info-time">10:50 — 11:20</h4>
+            <p class="info-name">Emma Thomas</p>
+            <img src="Images/Oracle.svg" alt="Logo Oracle" class="info-logo">
+          </div>
+
+          <div class="info-img">
+            <img src="Images/Alexander Kuttig 5.jpg" alt="Photo 5">
+          </div>
+
+          <div class="info-container">
+            <h5 class="container-title">"But we wanted our solution to transmit data faster than the speed of light"
+            </h5>
+
+            <div class="btn">
+              <button class="info-btn" id="info-btn-9-desk">show abstract</button>
+              <button class="info-btn" id="info-btn-10-desk">add to calendar</button>
+            </div>
+
+          </div>
+
+        </div>
+
+        <hr>
+
+        <div class="info">
+
+          <div class="info-title">
+            <h4 class="info-time">11:20 — 11:50</h4>
+            <p class="info-name">Michael Ritchson</p>
+            <img src="Images/Nasa.svg" alt="Logo Nasa" class="info-logo">
+          </div>
+
+          <div class="info-img">
+            <img src="Images/Alexander Kuttig 6.jpg" alt="Photo 6">
+          </div>
+
+          <div class="info-container">
+            <h5 class="container-title">"Apache Tomee, a successful open source migration journey for NASA"</h5>
+
+            <div class="btn">
+              <button class="info-btn" id="info-btn-11-desk">show abstract</button>
+              <button class="info-btn" id="info-btn-12-desk">add to calendar</button>
+            </div>
+
+          </div>
+
+        </div>
+
+        <hr>
+
+        <div class="q-a">
+          <h4 class="qa-time">11:50 — 12:20</h4>
+          <p class="qa-txt">Q&A</p>
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+
+</body>
+
+</html>
